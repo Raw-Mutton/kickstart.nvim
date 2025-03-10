@@ -1,5 +1,18 @@
 # kickstart.nvim
 
+## Hello it's me
+
+Things are looking good. SOme things I should add/modify are:
+
+Plugins:
+- [ ] Harpoon
+- [ ] Switch mini statusline to lualine?
+
+Other stuff:
+- [ ] Remove some unnecessary parts?
+  - Issue templates etc.
+- [ ] Organize init.lua into separate modules
+
 ## Introduction
 
 A starting point for Neovim that is:

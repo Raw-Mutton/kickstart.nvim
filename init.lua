@@ -202,13 +202,11 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
-<<<<<<< HEAD
 -- NOTE: Some terminals have colliding keymaps or are not able to send distinct keycodes
 -- vim.keymap.set("n", "<C-S-h>", "<C-w>H", { desc = "Move window to the left" })
 -- vim.keymap.set("n", "<C-S-l>", "<C-w>L", { desc = "Move window to the right" })
 -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
-=======
 -- My own keymaps!
 
 -- Go to file explorer
@@ -216,7 +214,6 @@ vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Go back to explorer' })
 vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Jump down and center cursor' })
 vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Jump up and center cursor' })
 vim.keymap.set('n', 'Q', '<nop>', { desc = 'Dont do anything crazy if accidental Q' })
->>>>>>> c9c017d (configure some keymaps and enable some disabled setup things)
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
